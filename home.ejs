@@ -1,0 +1,20 @@
+<%- include('../partials/header') %>
+
+    <main class="main" id="main">
+        <div class="container">
+            <div class="joke-of-the-day-div">
+                <h2 class="text-center setup">
+                    <%= joke.setup %>
+                </h2>
+                <p class="text-center punchline">
+                    <%= joke.punchline %>
+                </p>
+                <p class="text-center">
+                    For more jokes, 
+                    <a href="/jokes">click here</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+<%- include('../partials/footer') %>  
